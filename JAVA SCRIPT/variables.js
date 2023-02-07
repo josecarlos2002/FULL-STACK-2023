@@ -1,16 +1,20 @@
 var alert1 = 5;
-console.log(alert1)
-var alert1 = '';
+console.log(alert1);
+var alert1 = ''; // permitido
 
-// permitido
-
-let alert2 = 5;
-console.log(alert2)
+let alert2 = 3;
+console.log(alert2);
 // no permitido porque ya se declaró antes
-let alert2 = 5;
+alert2 = 3;
+alert2=15;// permitido
 
-
-alert2=15
-const alert3 = 13
+//Constante
+const alert3 = 13;
 console.log(alert1);
 console.log(alert2);
+console.log(alert3);
+
+
+const date1 = new Date();
+
+console.log(date1);
