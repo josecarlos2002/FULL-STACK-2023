@@ -22,18 +22,19 @@
                     font-family: 'Urbanist', sans-serif;
                 }
                 header.main-header{
-                    background-color: #1000a1; 
+                    background-color: #110489; 
                     padding: 8px 16px; 
-                    width:100%;
+                    width: 100%;
                     /* display:inline-block; */
                     display: flex;
-                    justify-content: space-between;
+                    justify-content: space-around;
+                    height: 50px;
+                    align-items: center;
                 }
                 li.main-nav-item {
                     display:inline-block;
-                    margin: 13px;
-                    border: 0.5px solid white;
-                    vertical-align: middle;
+                    margin: 9px;
+                    vertical-align: middle
 
                 }
                 ul.main-nav-items {
@@ -55,20 +56,57 @@
                 a {text-decoration: none;
                     color: white
                     ;}
+
+                    .button {
+  border: none;
+  color: white;
+  padding: 12px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #110489; 
+  color: rgb(255, 255, 255); 
+  border:0 solid #180164;
+}
+
+.button1:hover {
+  background-color: #09033f;
+  color: white;
+}
+
+.button2 {
+  background-color: #110489; 
+  color: rgb(255, 255, 255); 
+  border:0 solid #180164;
+}
+
+.button2:hover {
+  background-color: #09033f;
+  color: white;
+}
             </style>
         </head>
         <body>
             <header class="main-header">
                     <div>
-                        <img src="../IMG/logo_bbva_blanco.png" alt="Logo del Banco" style="height: 20px;">
-                    </div>
+                        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjEwdfkq_n8AhUZgv0HHWihB7YQFnoECA8QAQ&url=https%3A%2F%2Fwww.bbva.es%2Fpersonas.html&usg=AOvVaw3E7e9o-8AXeEJi5ABLSNQL"><img src="../IMG/logo_bbva_blanco.png" alt="Logo del Banco" style="height: 20px;">
+                        </a>
+                        </div>
                     <nav class="main-nav">
-                        <ul class="main-nav-items">
-                            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjEwdfkq_n8AhUZgv0HHWihB7YQFnoECA8QAQ&url=https%3A%2F%2Fwww.bbva.es%2Fpersonas.html&usg=AOvVaw3E7e9o-8AXeEJi5ABLSNQL"><li class="main-nav-item">
+                        <ul class="main-nav-items" class="button">
+                            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjEwdfkq_n8AhUZgv0HHWihB7YQFnoECA8QAQ&url=https%3A%2F%2Fwww.bbva.es%2Fpersonas.html&usg=AOvVaw3E7e9o-8AXeEJi5ABLSNQL" class="button button2"><li class="main-nav-item">
                                 Inicio
                             </li>
                             </a>
-                            <li class="main-nav-item">Servicios</a>
+                            <li class="main-nav-item">
+                                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjEwdfkq_n8AhUZgv0HHWihB7YQFnoECA8QAQ&url=https%3A%2F%2Fwww.bbva.es%2Fpersonas.html&usg=AOvVaw3E7e9o-8AXeEJi5ABLSNQL" class="button button1">Servicios</a>
                             </li>
                             <li class="main-nav-item">Acceso Cliente</li>
                             <li class="main-nav-item">FAQ</li>
